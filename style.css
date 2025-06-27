@@ -1,0 +1,272 @@
+* {
+  background-color: #3c1518;
+  color: white;
+}
+.topbar {
+  height: 70px;
+  width: 650px;
+  background-color: #3c1518;
+  display: flex;
+  justify-content: space-between;
+}
+a {
+  position: relative;
+  left: 752px;
+  margin: 3px;
+  top: 39px;
+  text-decoration: none;
+}
+a:hover {
+  color: #d48804; /* Slightly darker orange on hover */
+}
+.coffee {
+  position: relative;
+  top: 6px;
+  right: 38px;
+}
+.iconn {
+  position: relative;
+  top: 15px;
+}
+.main {
+  height: 300px;
+  width: 500px;
+  background-color: #3c1518;
+  position: relative;
+  top: 200px;
+  left: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.best {
+  color: #f29f05;
+}
+.pill-btn {
+  background-color: #f29f05; /* Orange */
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 50px; /* Pill shape */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pill-btn:hover {
+  background-color: #d48804; /* Slightly darker orange on hover */
+}
+
+.ctn-btn {
+  background-color: #3c1518; /* Dark maroon */
+  color: #f29f05; /* Orange text */
+  border: 2px solid #f29f05;
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 50px; /* Pill shape */
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.ctn-btn:hover {
+  background-color: #f29f05;
+  color: #3c1518;
+  border: 2px solid #3c1518;
+}
+.pics {
+  position: relative;
+  left: 600px;
+  bottom: 250px;
+}
+.profile {
+  width: 600px;
+
+  position: relative;
+  left: 700px;
+  top: 250px;
+}
+.profile:hover {
+  text-shadow: 0 0 20px rgba(255, 200, 0, 1), 0 0 30px rgba(255, 200, 0, 0.8);
+  transform: scale(1.05);
+}
+.cmp {
+  position: relative;
+  top: 200px;
+  bottom: 200px;
+}
+.boyy {
+  position: obsolute;
+  top: 20px;
+  left: 20px;
+  bottom: 50px;
+  text-shadow: 0 0 20px rgba(255, 200, 0, 1), 0 0 30px rgba(255, 200, 0, 0.8);
+  transform: scale(1.05);
+}
+
+.punch {
+  position: relative;
+  top: 100px;
+  font-size: 2.5em;
+  font-weight: bold;
+  text-align: center;
+  background: linear-gradient(90deg, #ffd700, #ffa500);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 10px rgba(255, 165, 0, 0.7);
+  margin: 40px 0;
+}
+.pgcon {
+  position: relative;
+  top: 50px;
+  font-size: 2.5em;
+  font-weight: bold;
+  text-align: center;
+  background: linear-gradient(90deg, #ffd700, #ffa500);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 10px rgba(255, 165, 0, 0.7);
+  margin: 40px 0;
+}
+.address {
+  position: relative;
+  top: 100px;
+  left: 200px;
+}
+.sendi {
+  color: white;
+  position: relative;
+  left: 840px;
+  top: -190px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  flex-basis: space-between;
+  width: 300px;
+  padding: 20px;
+}
+.inputbox {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px; /* creates vertical space between inputs */
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+#pika {
+  width: 250px;
+  height: 150px;
+  resize: none;
+  padding: 10px;
+  vertical-align: top;
+}
+.meow {
+  background-color: #3c1518; /* Dark maroon */
+  color: #f29f05; /* Orange text */
+  border: 2px solid #f29f05;
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 50px; /* Pill shape */
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 200px;
+}
+.meow:hover {
+  background-color: #f29f05;
+  color: #3c1518;
+  border: 2px solid #3c1518;
+}
+h2 {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 2em;
+}
+
+.menu-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+}
+
+.coffee-card {
+  background-color: #4a1a1f;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease;
+}
+
+.coffee-card:hover {
+  transform: scale(1.05);
+}
+
+.coffee-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.coffee-card h3 {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+.coffee-card p {
+  font-size: 0.95em;
+  color: #ddd;
+}
+.sokku {
+  ont-size: 2.5em;
+  font-weight: bold;
+  text-align: center;
+  background: linear-gradient(90deg, #ffd700, #ffa500);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 10px rgba(255, 165, 0, 0.7);
+  margin: 40px 0;
+}
+.ambi{
+    ont-size: 2.5em;
+  font-weight: bold;
+  text-align: center;
+  background: linear-gradient(90deg, #ffd700, #ffa500);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 10px rgba(255, 165, 0, 0.7);
+  margin: 40px 0;
+}
+
+  interior img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+  }
+  .gallli {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .gallli .interior img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  }
+  .gallli .interior img {
+    transition: transform 0.3s ease;
+  }
+  
+  .gallli .interior img:hover {
+    transform: scale(1.05);
+  }  
